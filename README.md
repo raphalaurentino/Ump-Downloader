@@ -99,11 +99,3 @@ Para atualizar o executavel oficial:
 O suporte ao Google Drive nao garante suporte a qualquer resposta UMP nem acesso a videos privados. O primeiro teste identifica o que o extrator atual consegue oferecer. Se o Drive exigir login ou negar acesso, nao significa que o yt-dlp esteja mal instalado.
 
 A leitura de cookies de Chrome/Edge no Windows pode falhar por bloqueio do banco ou criptografia do navegador. Fechar o navegador resolve alguns bloqueios, mas nao garante descriptografia. Nao desative protecoes do navegador para tentar resolver. Nao publique cookies, perfis ou URLs assinadas. Esta pasta esta no OneDrive; os videos baixados podem ser sincronizados.
-
-## Arquivos para o GitHub
-
-Envie apenas `.gitignore`, `README.md`, `executar.js`, `1-listar-formatos.cmd` e `2-baixar.cmd`. Nao envie `yt-dlp.exe`, `SHA2-256SUMS`, `downloads`, cookies ou perfis de navegador. O `.gitignore` inclui exclusoes para os arquivos locais deste projeto, mas uploads manuais pelo navegador exigem selecionar os arquivos corretos.
-
-O executavel sera baixado separadamente em cada computador conforme a etapa 4. O CursoDownloader original nao e necessario para usar este projeto.
-
-Fontes oficiais: [yt-dlp](https://github.com/yt-dlp/yt-dlp), [FAQ](https://github.com/yt-dlp/yt-dlp/wiki/FAQ).
